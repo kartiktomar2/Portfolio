@@ -19,13 +19,14 @@ function Contact() {
              try {
                  await  axios.post("https://getform.io/f/awnnxnrb",userInfo);
                  toast.success("Your message has been sent");
+                  setTimeout(()=>window.location.reload(),2000)
                      
              } catch (error) {
                   console.log("error while registering ",error);
                   toast.error('Something went wrong!');
                   
              }
-             
+              
       }
 
   return (
