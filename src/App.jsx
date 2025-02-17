@@ -7,17 +7,17 @@ import Experience from './Components/Experience.jsx'
 import Contact from './Components/Contact.jsx'
 import Footer from './Components/Footer.jsx'
 import  { Toaster } from 'react-hot-toast';
+import FirstPage from './Components/FirstPage.jsx'
+import { Route, Routes } from 'react-router-dom'
+import NotLive from './Components/NotLive.jsx'
 function App() {
   return (
     <>
     <div>
-           <Navbar/>
-            <Home/>
-            <About/>
-            <Portfolio/>
-            <Experience/>
-            <Contact/>
-            <Footer/>
+            <Routes>
+                <Route path='/' element={<FirstPage/>}/>
+                <Route path='/notLive' element={<NotLive/>}/>
+              </Routes>        
     </div>
     <Toaster/>
     </>
