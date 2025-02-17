@@ -9,7 +9,7 @@ const NotLive = () => {
           
     </div>
      <div className='text-center'>
-     <Link  to='/' className='font-bold px-4 py-2 rounded border-[1px]   mx-20 '>Back to Home Page</Link>
+     <Link  to='/' className='font-bold px-4 py-2 rounded border-[1px]   mx-20 '>Back</Link>
      </div>
    </>
     
