@@ -19,7 +19,7 @@ function Portfolio() {
             logo:chatapp,
             name:"Let's Chat",
             source:"https://github.com/kartiktomar2/LetsChat1",
-            info:" Catedhat application using MERN Stack",
+            info:" Chat application using MERN Stack",
             live:"https://letschat2.onrender.com/"
         },
     ]
