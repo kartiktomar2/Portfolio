@@ -31,7 +31,7 @@ function Contact() {
 
   return (
     <div
-       name="Contacts"
+       name="Contact Me"
     className='max-w-screen-2xl container mx-auto px-4 md:px-20   my-10'>
         <h1 className='text-3xl font-bold mb-3'>Contact Me</h1>
         <span>Please fill out the form below to contact me</span>

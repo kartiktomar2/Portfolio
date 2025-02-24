@@ -16,7 +16,7 @@ function Navbar() {
        },
       {
          id:3,
-         text:"Portfolio"     
+         text:"Projects"     
        },
       {
          id:4,
@@ -24,7 +24,7 @@ function Navbar() {
        },
       {
          id:5,
-         text:"Contacts"     
+         text:"Contact Me"     
        }
     ]
   return (
