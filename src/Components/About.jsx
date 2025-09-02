@@ -4,7 +4,7 @@ function About() {
   return (
     <div 
       name="About"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16">
+      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 text-justify">
       <h1 className="text-3xl font-bold mb-5">About</h1>
       <p>
         Hello, I am <span className="font-semibold">Kartik Tomar</span>, a dedicated Web Developer specializing in the <span className="font-semibold">MERN Stack</span>. With a background in Computer Science and Engineering, I focus on delivering high-quality, efficient, and visually engaging software solutions. My experience includes working collaboratively to resolve user interface issues and enhance web application usability, ensuring optimal user experiences.
