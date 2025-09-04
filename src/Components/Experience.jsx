@@ -15,7 +15,7 @@ function Experience() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        viewport={{ once: false, amount: 0.2 }} 
+        viewport={{ once: true, amount: 0.2 }} 
         // once:false → triggers every time it comes into view
         // amount:0.2 → triggers when 20% of it is visible
       >
@@ -46,7 +46,7 @@ function Experience() {
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: i * 0.2 }}
-              viewport={{ once: false }}
+              viewport={{ once: true, amount: 0.2 }}
             >
               {text}
             </motion.li>
