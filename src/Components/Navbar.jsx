@@ -43,7 +43,7 @@ function Navbar() {
 
           {/* Desktop Navbar */}
           <div>
-            <ul className='hidden md:flex space-x-8'>
+            <ul className='hidden lg:flex space-x-8'>
               {navItems.map((item) => (
                 <li key={item.id} className='hover:scale-105 duration-200 cursor-pointer'>
                   <Link
@@ -61,7 +61,7 @@ function Navbar() {
           {/* Menu Icon (top right) */}
           <div
             onClick={menu ? closeMenu : openMenu}
-            className='md:hidden cursor-pointer'
+            className='lg:hidden cursor-pointer'
             style={{ position: 'absolute', top: '1rem', right: '1rem', zIndex: 40 }}
           >
             <AnimatePresence mode="wait">
@@ -114,7 +114,7 @@ function Navbar() {
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     transition={{ duration: 0.5 }}
-                    className="md:hidden h-screen flex flex-col items-center justify-center space-y-3 font-bold text-xl fixed inset-0 z-30"
+                    className="lg:hidden h-screen flex flex-col items-center justify-center space-y-3 font-bold text-xl fixed inset-0 z-30"
                   >
                     {navItems.map((item, idx) => (
                       <motion.li
