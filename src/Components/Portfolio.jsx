@@ -38,7 +38,7 @@ function Portfolio() {
         return (
           <motion.div
             key={id}
-            className="md:w-[300px] md:h-[350px] border-[2px] rounded-lg p-1 cursor-pointer hover:scale-105 duration-200"
+            className="md:w-[300px] md:h-[350px] border-[2px] rounded-lg p-1 cursor-pointer hover:scale-105   hover:shadow-[0px_8px_20px_rgba(113,39,186,0.5)] duration-[0.3s]"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }} // staggered
