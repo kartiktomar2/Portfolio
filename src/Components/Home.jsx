@@ -58,7 +58,7 @@ function Home() {
                 </li>
                 <li className="cursor-pointer">
                   <a
-                    href="mailto:kartik@example.com"
+                    href="mailto:ktomar466@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center justify-center w-10 h-10 border rounded-full hover:scale-110 transition-transform"
