@@ -22,7 +22,7 @@ function About() {
         <br />
         <h1 className="font-bold text-xl">Skills & Expertise</h1>
         <p className="text-sm">
-          Proficient in<span className="font-semibold">JavaScript</span>, <span className="font-semibold">React.js</span>, <span className="font-semibold">Node.js</span>, <span className="font-semibold">Express.js</span>, <span className="font-semibold">MongoDB</span>, <span className="font-semibold">HTML</span>, <span className="font-semibold">CSS</span>, <span className="font-semibold">Tailwind CSS</span>, REST APIs, JWT, and Git/GitHub.
+          Proficient in<span className="font-semibold"> JavaScript</span>, <span className="font-semibold">React.js</span>, <span className="font-semibold">Node.js</span>, <span className="font-semibold">Express.js</span>, <span className="font-semibold">MongoDB</span>, <span className="font-semibold">HTML</span>, <span className="font-semibold">CSS</span>, <span className="font-semibold">Tailwind CSS</span>, REST APIs, JWT, and Git/GitHub.
         </p>
         <br />
         <h1 className="font-bold text-xl">Goal</h1>
