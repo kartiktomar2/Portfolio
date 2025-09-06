@@ -23,7 +23,7 @@ function Home() {
           <div className="flex justify-center md:justify-start items-center space-x-2 text-2xl md:text-4xl">
             <h1>I&apos;m a</h1>
             <ReactTyped
-              className="text-[#7127BA] font-bold"
+              className="text-[#7127BA] font-bold z-[-1]"
               strings={["Web Developer", "Programmer", "Problem Solver"]}
               typeSpeed={40}
               backSpeed={40}
