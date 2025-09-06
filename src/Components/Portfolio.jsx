@@ -32,7 +32,7 @@ function Portfolio() {
         >
             <div>
                 <h1 className="text-3xl font-bold mb-5">Projects</h1>
-                <span className="underline font-semibold">Featured Project</span>
+                
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-5">
                     {cardItem.map(({ id, logo, name, source, info, live }, index) => (
                         <motion.div
@@ -52,7 +52,7 @@ function Portfolio() {
                                 <img
                                     src={logo}
                                     alt="project_logo"
-                                    className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] p-1 rounded-full border-2 object-cover"
+                                    className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] p-1 rounded-full border-2 object-fill"
                                 />
                             </div>
                             {/* Project Info */}

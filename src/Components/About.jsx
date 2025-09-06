@@ -8,7 +8,7 @@ function About() {
     const skills=[
            {
                 src:<FaHtml5  />,
-                title:"HTMl5"
+                title:"HTML5"
            },
            {
                 src:<IoLogoCss3 />,

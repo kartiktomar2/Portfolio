@@ -31,7 +31,7 @@ function Navbar() {
 
   return (
     <>
-      <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 bg-[#1A0B2E] text-white fixed top-0 right-0'>
+      <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 bg-[#1A0B2E] text-white fixed top-0 right-0 z-1'>
         <div className='flex justify-between items-center h-16'>
           <div className='flex space-x-2'>
             <img src={Me} className='h-12 w-12' alt="My avatar" />
